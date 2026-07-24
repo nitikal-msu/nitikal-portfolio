@@ -26,7 +26,10 @@ import {
   CheckCircle2,
   Loader2,
 } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import heroImgAsset from "@/assets/imr-01.jpg.asset.json";
+import aboutImgAsset from "@/assets/img-02.jpg.asset.json";
+const heroImg = heroImgAsset.url;
+const aboutImg = aboutImgAsset.url;
 import { projects, skillCategories, type Project } from "@/lib/portfolio-data";
 import { toast, Toaster } from "sonner";
 
