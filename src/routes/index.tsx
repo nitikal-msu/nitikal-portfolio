@@ -302,7 +302,8 @@ function Skills() {
         list.map((s) => ({ category: cat, name: s })),
       );
     }
-    return (skillCategories as any)[active].map((s: string) => ({ category: active, name: s }));
+    const list = (skillCategories as Record<string, readonly string[]>)[active];
+    return list.map((s) => ({ category: active, name: s }));
   }, [active]);
 
   return (
