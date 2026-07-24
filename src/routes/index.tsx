@@ -26,7 +26,10 @@ import {
   CheckCircle2,
   Loader2,
 } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import heroImgAsset from "@/assets/imr-01.jpg.asset.json";
+import aboutImgAsset from "@/assets/img-02.jpg.asset.json";
+const heroImg = heroImgAsset.url;
+const aboutImg = aboutImgAsset.url;
 import { projects, skillCategories, type Project } from "@/lib/portfolio-data";
 import { toast, Toaster } from "sonner";
 
@@ -205,7 +208,7 @@ function Hero() {
             <div className="absolute inset-0 rounded-[2rem] bg-[var(--gradient-neon)] opacity-40 blur-2xl pulse-glow" />
             <div className="glass-strong relative h-full w-full overflow-hidden rounded-[2rem] neon-border-glow">
               <img
-                src={profileImg}
+                src={heroImg}
                 alt="Nitikal Sosud"
                 width={768}
                 height={1024}
@@ -249,7 +252,7 @@ function About() {
             <div className="absolute inset-0 rounded-[2rem] bg-[var(--gradient-pink-purple)] opacity-40 blur-2xl" />
             <div className="glass-strong relative aspect-square overflow-hidden rounded-[2rem] neon-border-glow">
               <img
-                src={profileImg}
+                src={aboutImg}
                 alt="Nitikal Sosud portrait"
                 loading="lazy"
                 className="h-full w-full object-cover"
