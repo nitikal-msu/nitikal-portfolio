@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Nitikal Sosud — Business Analyst Portfolio" },
+      { name: "description", content: "Aspiring Business Analyst turning complex problems into data-driven business solutions. Portfolio of analytics, UI/UX and business system projects." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Nitikal Sosud — Business Analyst Portfolio" },
+      { property: "og:description", content: "Aspiring Business Analyst turning complex problems into data-driven business solutions. Portfolio of analytics, UI/UX and business system projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Nitikal Sosud — Business Analyst Portfolio" },
+      { name: "twitter:description", content: "Aspiring Business Analyst turning complex problems into data-driven business solutions. Portfolio of analytics, UI/UX and business system projects." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a96a2d38-8910-4e3a-beb2-d8f1f5b5dc02/id-preview-3b1b5a90--307d814e-6c7f-4783-b613-a3d8add041c6.lovable.app-1784853703696.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a96a2d38-8910-4e3a-beb2-d8f1f5b5dc02/id-preview-3b1b5a90--307d814e-6c7f-4783-b613-a3d8add041c6.lovable.app-1784853703696.png" },
     ],
     links: [
       {

@@ -46,7 +46,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Aspiring Business Analyst turning complex problems into data-driven business solutions.",
+          "Aspiring Business Analyst turning complex problems into data-driven business solutions. Portfolio of analytics, UI/UX and business system projects.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -54,7 +54,7 @@ export const Route = createFileRoute("/")({
       {
         name: "twitter:description",
         content:
-          "Aspiring Business Analyst turning complex problems into data-driven business solutions.",
+          "Aspiring Business Analyst turning complex problems into data-driven business solutions. Portfolio of analytics, UI/UX and business system projects.",
       },
     ],
   }),
