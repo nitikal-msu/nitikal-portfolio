@@ -512,12 +512,7 @@ function Activities() {
           title="Activities & Extracurriculars"
           subtitle="A showcase of workshops, events, and academic activities I've participated in."
         />
-        <a
-          href="https://canva.link/rivv0kz6oaaucct"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="glass-strong group mt-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 rounded-3xl p-8 sm:p-10 transition hover:-translate-y-1 hover:neon-border-glow"
-        >
+        <div className="glass-strong group mt-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 rounded-3xl p-8 sm:p-10 transition hover:-translate-y-1 hover:neon-border-glow">
           <div className="flex items-start gap-5">
             <div className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-[var(--gradient-neon)] text-white shadow-[var(--shadow-neon-purple)]">
               <Target className="h-6 w-6" />
@@ -533,10 +528,15 @@ function Activities() {
               </p>
             </div>
           </div>
-          <span className="btn-neon btn-neon-hover inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold">
+          <a
+            href="https://canva.link/trkfodh16qpdoc8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-neon btn-neon-hover inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-semibold"
+          >
             Open Archive <ExternalLink className="h-4 w-4" />
-          </span>
-        </a>
+          </a>
+        </div>
       </div>
     </section>
   );
