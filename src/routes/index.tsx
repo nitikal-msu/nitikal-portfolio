@@ -208,7 +208,7 @@ function Hero() {
             <div className="absolute inset-0 rounded-[2rem] bg-[var(--gradient-neon)] opacity-40 blur-2xl pulse-glow" />
             <div className="glass-strong relative h-full w-full overflow-hidden rounded-[2rem] neon-border-glow">
               <img
-                src={profileImg}
+                src={heroImg}
                 alt="Nitikal Sosud"
                 width={768}
                 height={1024}
@@ -252,7 +252,7 @@ function About() {
             <div className="absolute inset-0 rounded-[2rem] bg-[var(--gradient-pink-purple)] opacity-40 blur-2xl" />
             <div className="glass-strong relative aspect-square overflow-hidden rounded-[2rem] neon-border-glow">
               <img
-                src={profileImg}
+                src={aboutImg}
                 alt="Nitikal Sosud portrait"
                 loading="lazy"
                 className="h-full w-full object-cover"
