@@ -101,7 +101,7 @@ function Nav() {
       <div className="mx-auto mt-3 max-w-7xl px-4">
         <div className="glass-strong flex items-center justify-between rounded-2xl px-4 py-3 sm:px-6">
           <a href="#home" className="font-mono text-lg sm:text-xl font-bold neon-text tracking-tight">
-            &lt;Nitikal.BA/&gt;
+            &lt;Nitikal.Bow&gt;
           </a>
           <nav className="hidden md:flex items-center gap-1">
             {navLinks.map((l) => (
@@ -179,9 +179,6 @@ function Hero() {
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
             Hi, I am <span className="neon-text-pink">Nitikal Sosud</span>
           </h1>
-          <p className="mt-4 text-lg sm:text-xl font-semibold text-[color:var(--neon-cyan)]">
-            Business Analyst
-          </p>
           <p className="mt-4 max-w-xl text-base sm:text-lg text-muted-foreground">
             Turning Complex Problems into Data-Driven Business Solutions.
           </p>
