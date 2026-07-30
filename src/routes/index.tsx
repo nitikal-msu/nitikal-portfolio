@@ -258,10 +258,12 @@ function About() {
           </div>
           <div>
             <p className="text-base sm:text-lg leading-relaxed text-muted-foreground">
-              I am an aspiring Business Analyst who enjoys turning complex business challenges into
-              practical, data-driven solutions. Through analytical thinking, stakeholder collaboration,
-              and continuous learning, I aim to create meaningful value for organizations while
-              delivering user-focused and business-oriented outcomes.
+              Final-Year Student, Bachelor of Business Administration Digital Business and Information
+              Systems with a strong passion for bridging the gap between business needs, data, and
+              digital technology. Skilled in analytical problem-solving, process optimization, and
+              stakeholder collaboration. Driven by a user-centric mindset and continuous learning, I
+              excel at transforming complex challenges into actionable, data-informed solutions that
+              deliver measurable business value across diverse product, data, and technology roles.
             </p>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-3">
               {highlights.map(({ icon: Icon, label }) => (
